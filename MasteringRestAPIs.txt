@@ -1,0 +1,121 @@
+Java & Testing Prerequisites
+
+Before diving deep, ensure you’re comfortable with:
+
+Java basics (OOP, Collections, Exception handling, Streams).
+
+Test frameworks (JUnit/TestNG basics).
+
+Maven/Gradle (dependency management).
+
+Logging (SLF4J, Log4j).
+
+🔹 REST API Fundamentals
+
+What is REST API?
+
+HTTP methods: GET, POST, PUT, PATCH, DELETE
+
+HTTP response codes (2xx, 3xx, 4xx, 5xx)
+
+Headers, Query Params, Path Params
+
+Request/Response body (JSON, XML)
+
+🔹 REST Assured Basics
+
+Setup REST Assured in Maven project
+
+Writing your first GET request
+
+Sending query params, path params, headers
+
+Validating response status codes & headers
+
+Validating JSON response using JsonPath
+
+Parsing XML response
+
+🔹 Advanced REST Assured
+
+Request & Response Specifications (to avoid code duplication)
+
+Authentication:
+
+Basic Auth
+
+OAuth 2.0
+
+Bearer Tokens
+
+File upload/download in APIs
+
+Handling Cookies & Sessions
+
+Schema Validation (JSON Schema & XML Schema)
+
+Serialization/Deserialization with POJO (Jackson/Gson)
+
+Reusable Utility Classes
+
+🔹 Cucumber BDD Integration
+
+Setting up Cucumber with REST Assured
+
+Writing Feature files for APIs (Given/When/Then style)
+
+Step Definitions for:
+
+Hitting GET/POST/PUT/DELETE
+
+Extracting values from response
+
+Validating status codes, headers, body fields
+
+Data-Driven API Testing (using Scenario Outline, Examples, and external test data like JSON/Excel)
+
+Using Hooks (@Before, @After) for setup/teardown
+
+Cucumber Tags to group API scenarios
+
+Generating Reports (Extent Reports, Allure Reports, Cucumber HTML report)
+
+🔹 Validation & Assertions
+
+Hamcrest Matchers for response validation
+
+AssertJ / TestNG Assertions
+
+Response time validations
+
+End-to-end API flow testing (e.g., create user → get user → update user → delete user).
+
+🔹 Framework Building
+
+Designing a reusable API Automation Framework:
+
+Base class for common configs
+
+Utility methods for API calls
+
+Centralized properties/config management
+
+Logging & reporting setup
+
+CI/CD Integration:
+
+Running REST Assured tests in Jenkins/GitHub Actions
+
+Running with Dockerized services
+
+🔹 Additional Topics (Good to Know)
+
+Postman vs REST Assured (when to use which)
+
+API Documentation tools (Swagger, OpenAPI)
+
+Mocking APIs with WireMock or MockServer
+
+Contract Testing (Pact, Spring Cloud Contract)
+
+Performance Testing basics with JMeter/Gatling
